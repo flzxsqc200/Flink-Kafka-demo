@@ -56,7 +56,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>flink.Kafka9StreamWordCount</mainClass>
+									<mainClass>flink.Kafka9StreamGroupedWordCount</mainClass>
 
 								</transformer>
 							</transformers>
